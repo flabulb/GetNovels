@@ -71,7 +71,7 @@ def main(book_name):
     author, book_number = getBookNumber(book_name)
     book_list = getList(book_number)
     book = getBook(book_list)
-    f = open(f'./{book_name}-{author}.txt', 'w')
+    f = open(f'./novel/{book_name}-{author}.txt', 'w')
     f.writelines(str(book))
     f.close()
 
