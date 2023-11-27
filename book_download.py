@@ -76,4 +76,4 @@ def main(book_name):
     f.close()
 
 
-main('仙道第一小白脸')
+main('')
